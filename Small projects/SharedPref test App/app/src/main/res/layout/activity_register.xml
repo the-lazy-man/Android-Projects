@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#48000000"
+    android:layout_height="match_parent">
+
+    <!-- Register Title -->
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Register"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Username EditText -->
+    <EditText
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:hint="Username"
+        android:minHeight="48dp" />
+
+    <!-- Email EditText -->
+<!--    <EditText-->
+<!--        android:id="@+id/tv_email"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/tv_username"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:hint="Email"-->
+
+<!--        android:minHeight="48dp"-->
+<!--        android:autofillHints="" />-->
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/tv_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:background="@drawable/button_border"
+        android:layout_below="@id/tv_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Already have an account TextView -->
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Already have an account? Login"
+        android:textColor="#616161" />
+
+</RelativeLayout>
