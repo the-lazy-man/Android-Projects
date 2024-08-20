@@ -1,0 +1,6 @@
+87cdc6c Merge branch 'main' of https://github.com/the-lazy-man/Android-Projects first merge
+c3e6e8c Adding SharedPref Test APP
+9e52668 Create Auth App
+93822fe Update README.md
+b7d9871 renamed files
+e44cde6 first commit
