@@ -16,11 +16,3 @@ Unit Converter App is a simple Android application developed using Jetpack Compo
 - **Kotlin**: The entire application is written in Kotlin, a modern programming language used for Android app development.
 - **Android Studio**: Android Studio is used as the primary IDE for developing and building the application.
 
-## Getting Started
-
-To run the Unit Converter App on your local machine, follow these steps:
-
-1. **Clone the Repository**: Clone the repository to your local machine using Git:
-
-   ```bash
-   git clone <repository-url>
